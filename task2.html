@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <link rel="stylesheet" type="text/css" href="styles2.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Registration Form</h1>
+    <form id="registration-form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+      </div>
+      <div class="form-group">
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" required>
+      </div>
+      <div class="form-group">
+        <label for="gender">GENDER:</label>
+        <select name="gender">
+        <option value="N">NONE</option> 
+         <option value="f">FEMALE</option> 
+         <option value="M">MALE</option>   
+         <option value="O">OTHER</option>
+        </select>
+        
+      </div>
+      <div class="nikhitha">
+        <div class="select-btn">
+            <span class="btn-text">Select Language</span>
+            <span class="arrow-dwn">
+                <i class="fa-solid fa-chevron-down"></i>
+            </span>
+        </div>
+        <ul class="list-items">
+            <li class="item">
+                <span class="checkbox">
+                    <i class="fa-solid fa-check check-icon"></i>
+                </span>
+                <span class="item-text">HTML & CSS</span>
+            </li>
+            <li class="item">
+                <span class="checkbox">
+                    <i class="fa-solid fa-check check-icon"></i>
+                </span>
+                <span class="item-text">Bootstrap</span>
+            </li>
+            <li class="item">
+                <span class="checkbox">
+                    <i class="fa-solid fa-check check-icon"></i>
+                </span>
+                <span class="item-text">JavaScript</span>
+            </li>
+            <li class="item">
+                <span class="checkbox">
+                    <i class="fa-solid fa-check check-icon"></i>
+                </span>
+                <span class="item-text">Node.Js</span>
+            </li>
+            <li class="item">
+                <span class="checkbox">
+                    <i class="fa-solid fa-check check-icon"></i>
+                </span>
+                <span class="item-text">React JS</span>
+            </li>
+            <li class="item">
+                <span class="checkbox">
+                    <i class="fa-solid fa-check check-icon"></i>
+                </span>
+                <span class="item-text">Mango DB</span>
+            </li>
+        </ul>
+    </div>
+
+      <button type="submit">Register</button>
+    </form>
+    <div id="registration-data"></div>
+  </div>
+  
+  <script src="script2.js"></script>
+</body>
+</html>
